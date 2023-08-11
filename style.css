@@ -438,12 +438,135 @@ a.btn:nth-child(2)::before{
 .service-icon{
     border: 2px solid var(--hover-color);
     padding: 2rem;
-    border-radius: 70px;
     background: var(--second-bg-color);
+    border-radius: 70px;
     display: flex;
+    position: relative;
     align-items: center;
     font-size: 4rem;
+    box-shadow: var(--neon-box-shadow);
+    outline: 3px solid var(--bg-color);
 }
+
+.service-box h3{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+
+/* portfolio section ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.portfolio{
+    background-color: var(--second-bg-color);
+}
+
+.filter-buttons{
+    margin: 2rem;
+    text-align: center;
+}
+
+.filter-buttons .btn{
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: .4px;
+    margin-left: 1.3rem;
+    color: var(--text-color);
+}
+
+.filter-buttons .btn:hover{
+    color: var(--hover-color);
+}
+
+.portfolio-gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 2rem;
+}
+
+.port-box{
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #292e33;
+    display: flex;
+    grid-template-rows: 1fr auto;
+    align-items: center;
+    border: 2px solid var(--hover-color);
+    box-shadow: var(--neon-box-shadow);
+}
+
+.port-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.port-image img{
+    width: 100%;
+    opacity: .5s;
+    height: 100%;
+    transition: .5s;
+}
+
+.port-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: linear-gradient(rgba(0,0,0.2), #12f7ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.5s;
+    padding: 0 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
