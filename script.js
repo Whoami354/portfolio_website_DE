@@ -100,6 +100,14 @@ scrollBottom.forEach((el) => observer.observe(el));
 const scrollTop = document.querySelectorAll(".scroll-top");
 scrollTop.forEach((el) => observer.observe(el));
 
+//filter button
+const filterButtons = document.querySelectorAll('.button');
 
+filterButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+    });
+});
 
-
+document.querySelector('.button[data-filter="all"]').classList.add('active');
