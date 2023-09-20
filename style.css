@@ -534,6 +534,7 @@ section{
 
 .port-box{
     position: relative;
+    cursor: pointer;
     border-radius: 15px;
     overflow: hidden;
     background: #292e33;
@@ -885,17 +886,3 @@ footer a i{
         grid-template-columns: repeat(1 ,minmax(270px, 1fr));
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
