@@ -617,6 +617,11 @@ section{
 /* contact section ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 .contact{
     width: 100%;
+    height: 800px;
+}
+
+.contact h2{
+    margin-top: 180px;
 }
 
 .contact form{
@@ -651,6 +656,8 @@ section{
 .formBtn .btn{
     cursor: pointer;
     font-size: 1rem;
+    border-radius: 30px;
+    width: 300px;
 }
 
 /* footer css*/
