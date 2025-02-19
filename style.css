@@ -888,7 +888,16 @@ footer a i{
         grid-template-columns: repeat(2, minmax(270px, 1fr));
     }
 
+    .degree-gallery {
+        grid-template-columns: repeat(2, minmax(270px, 1fr));
+    }
+
     .port-box{
+        width: 270px;
+        height: 200px;
+    }
+
+    .degr-box{
         width: 270px;
         height: 200px;
     }
@@ -953,7 +962,16 @@ footer a i{
         grid-template-columns: repeat(2, minmax(270px, 1fr));
     }
 
+    .degree-gallery {
+        grid-template-columns: repeat(2, minmax(270px, 1fr));
+    }
+
     .port-box{
+        width: 270px;
+        height: 200px;
+    }
+
+    .degr-box{
         width: 270px;
         height: 200px;
     }
@@ -990,6 +1008,9 @@ footer a i{
     }
 
     .portfolio-gallery {
+        grid-template-columns: repeat(1 ,minmax(270px, 1fr));
+    }
+    .degree-gallery {
         grid-template-columns: repeat(1 ,minmax(270px, 1fr));
     }
 }
