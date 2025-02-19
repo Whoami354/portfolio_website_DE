@@ -889,7 +889,7 @@ footer a i{
     }
 
     .degree-gallery {
-        grid-template-columns: repeat(2, minmax(270px, 1fr));
+        grid-template-columns: repeat(1, minmax(270px, 1fr));
     }
 
     .port-box{
@@ -963,7 +963,7 @@ footer a i{
     }
 
     .degree-gallery {
-        grid-template-columns: repeat(2, minmax(270px, 1fr));
+        grid-template-columns: repeat(1, minmax(270px, 1fr));
     }
 
     .port-box{
