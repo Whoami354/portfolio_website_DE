@@ -619,8 +619,8 @@ section{
 
 .degree-gallery{
     display: grid;
-    grid-template-columns: repeat(3, minmax(500px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(2, minmax(500px, 1fr));
+    gap: 0rem;
     justify-items: center;
 }
 
