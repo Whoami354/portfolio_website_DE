@@ -266,7 +266,7 @@ section{
     margin-top: 8rem;
     display: flex;
     justify-content: space-between;
-    width: 110px;
+    width: 250px;
     height: 40px;
 }
 
@@ -430,7 +430,7 @@ section{
 
 .main-text span{
     color: #fdfdfd;
-    font-size: .8rem;
+    font-size: 0.8rem;
     font-weight: 200;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -612,8 +612,103 @@ section{
     color: var(--second-bg-color);
 }
 
+/* degree section ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+.degree{
+    width: 100%;
+}
+
+.degree-gallery{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(500px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+}
+
+.degr-box{
+    position: relative;
+    cursor: pointer;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #292e33;
+    display: flex;
+    grid-template-rows: 1fr auto;
+    align-items: center;
+    border: 2px solid var(--hover-color);
+    box-shadow: var(--neon-box-shadow);
+    height: 350px;
+    width: 500px;
+}
+
+.degr-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.degr-image img{
+    width: 100%;
+    opacity: .5s;
+    height: 100%;
+    transition: .5s;
+}
+
+.degr-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: linear-gradient(rgba(0,0,0.2), #12f7ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.5s;
+    padding: 0 2rem;
+}
+
+.degr-box:hover .degr-content{
+    opacity: 1;
+}
+
+.degr-box:hover .degr-image img{
+    transform: scale(1.1);
+}
+
+.degr-content h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.degr-content p{
+    font-size: 1rem;
+    margin: 5px 0 15px 0;
+}
+
+.degr-content a{
+    background: #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--hover-color);
+    outline: 2px solid #fff;
+}
+
+.degr-content a i{
+    font-size: 1.3rem;
+    color: var(--second-bg-color);
+}
+
 /* contact section ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 .contact{
+    background: var(--second-bg-color);
     width: 100%;
     height: 800px;
 }
@@ -661,7 +756,6 @@ section{
 /* footer css*/
 
 footer{
-    background: var(--second-bg-color);
     padding: 1.5rem 10%;
     display: flex;
     align-items: center;
@@ -779,7 +873,7 @@ footer a i{
     }
 
     .social-icons{
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
 
     .portfolio-gallery {
