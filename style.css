@@ -844,6 +844,7 @@ footer a i{
         gap: 5rem;
     }
 }
+
 @media(max-width: 991px){
     header,
     header.sticky{
