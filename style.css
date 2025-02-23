@@ -838,6 +838,12 @@ footer a i{
 }
 
 /* Break Points */
+@media(min-width: 992px){
+    .degree-gallery {
+        /* das gap entfernen, wenn du mehr als 2 Zeugnisse hast*/
+        gap: 5rem;
+    }
+}
 @media(max-width: 991px){
     header,
     header.sticky{
@@ -885,7 +891,7 @@ footer a i{
     .degree-gallery {
         grid-template-columns: repeat(2, minmax(270px, 1fr));
         /* das gap entfernen, wenn du mehr als 2 Zeugnisse hast*/
-        gap: 10rem;
+        gap: 5rem;
     }
 
     .degr-content h3{
