@@ -788,7 +788,6 @@ footer a i{
     color: var(--bg-color);
 }
 
-
 /*parallax -----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .scroll-scale {
     opacity: 0;
@@ -812,10 +811,6 @@ footer a i{
     opacity: 1;
     transform: translateX(0);
 }
-
-
-
-
 
 /*keyframes -----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -968,6 +963,14 @@ footer a i{
         gap: 10rem;
     }
 
+    .degr-content h3{
+        font-size: 65%;
+    }
+
+    .degr-content p{
+        font-size: 65%;
+    }
+
     .port-box{
         width: 270px;
         height: 200px;
@@ -1017,5 +1020,13 @@ footer a i{
         grid-template-columns: repeat(1, minmax(270px, 1fr));
         /* das gap entfernen, wenn du mehr als 2 Zeugnisse hast*/
         gap: 2rem;
+    }
+
+    .degr-content h3{
+        font-size: 90%;
+    }
+
+    .degr-content p{
+        font-size: 90%;
     }
 }
