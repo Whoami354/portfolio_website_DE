@@ -625,6 +625,7 @@ section{
 .degree-gallery{
     display: grid;
     grid-template-columns: repeat(2, minmax(500px, 1fr));
+    /*gap auf 2 erhöhen, bei 3 Abschlüssen*/
     gap: 0rem;
     justify-items: center;
 }
@@ -871,7 +872,7 @@ footer a i{
     :root{
         --big-font: 2.2rem;
         --normal-font: 1.8rem;
-        --neon-box-shadow: 0 0 .8rem ##12f7ff;
+        --neon-box-shadow: 0 0 .8rem #12f7ff;
         --h2-font: 3rem;
     }
 
@@ -888,7 +889,7 @@ footer a i{
     }
 
     .degree-gallery {
-        grid-template-columns: repeat(1, minmax(270px, 1fr));
+        grid-template-columns: repeat(2, minmax(270px, 1fr));
     }
 
     .port-box{
@@ -962,7 +963,9 @@ footer a i{
     }
 
     .degree-gallery {
-        grid-template-columns: repeat(1, minmax(270px, 1fr));
+        grid-template-columns: repeat(2, minmax(170px, 1fr));
+        /* das gap entfernen, wenn du mehr als 2 Zeugnisse hast*/
+        gap: 10rem;
     }
 
     .port-box{
@@ -1009,7 +1012,10 @@ footer a i{
     .portfolio-gallery {
         grid-template-columns: repeat(1 ,minmax(270px, 1fr));
     }
+
     .degree-gallery {
-        grid-template-columns: repeat(1 ,minmax(270px, 1fr));
+        grid-template-columns: repeat(1, minmax(270px, 1fr));
+        /* das gap entfernen, wenn du mehr als 2 Zeugnisse hast*/
+        gap: 2rem;
     }
 }
