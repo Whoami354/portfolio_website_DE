@@ -46,7 +46,6 @@ body{
     font-family: "Poppins", sans-serif;
     background-color: var(--bg-color);
     color: var(--text-color);
-
 }
 
 header{
@@ -118,8 +117,8 @@ span{
     color: var(--second-bg-color);
     display: none;
 }
-/*--home section-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+/*--home section-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 section{
     padding: 130px 10%;
 }
@@ -336,6 +335,7 @@ section{
 .liquid-shape:nth-child(2){
     filter: blur(50px);
 }
+
 /*About Section css ------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .about{
     display: flex;
@@ -461,8 +461,6 @@ section{
     font-size: var(--normal-font);
 }
 
-
-
 .service-box:hover{
     transform: translateY(-.7rem);
 }
@@ -485,9 +483,7 @@ section{
     font-size: 1.5rem;
 }
 
-
 /* portfolio section ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
-
 .portfolio{
     background-color: var(--second-bg-color);
     width: 100%;
@@ -612,7 +608,7 @@ section{
 }
 
 /* degree section ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
-/* wieder rausnehmen, wenn ich mindestens 3 Abschlüsse wieder habe*/
+/* wieder rausnehmen, wenn ich mindestens 3 Abschlüsse habe*/
 #degree {
     padding-right: 20%; 
     padding-left: 20%;
@@ -712,8 +708,6 @@ section{
     color: var(--second-bg-color);
 }
 
-
-
 /* contact section ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 .contact{
     background: var(--second-bg-color);
@@ -762,7 +756,6 @@ section{
 }
 
 /* footer css*/
-
 footer{
     padding: 1.5rem 10%;
     display: flex;
@@ -813,7 +806,6 @@ footer a i{
 }
 
 /*keyframes -----------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
 @keyframes morph{
     0%,
     100%{
@@ -844,7 +836,6 @@ footer a i{
         transform: translateY(0px);
     }
 }
-
 
 /* Break Points */
 @media(max-width: 991px){
@@ -883,8 +874,26 @@ footer a i{
         grid-template-columns: repeat(2, minmax(270px, 1fr));
     }
 
+    .port-content h3{
+        font-size: 60%;
+    }
+
+    .port-content p{
+        font-size: 60%;
+    }
+
     .degree-gallery {
         grid-template-columns: repeat(2, minmax(270px, 1fr));
+        /* das gap entfernen, wenn du mehr als 2 Zeugnisse hast*/
+        gap: 10rem;
+    }
+
+    .degr-content h3{
+        font-size: 65%;
+    }
+
+    .degr-content p{
+        font-size: 65%;
     }
 
     .port-box{
@@ -963,14 +972,6 @@ footer a i{
         gap: 10rem;
     }
 
-    .degr-content h3{
-        font-size: 65%;
-    }
-
-    .degr-content p{
-        font-size: 65%;
-    }
-
     .port-box{
         width: 270px;
         height: 200px;
@@ -985,7 +986,6 @@ footer a i{
         font-size: .8rem;
     }
 }
-
 
 @media(max-width: 420px){
     html{
