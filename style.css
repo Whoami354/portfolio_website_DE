@@ -924,6 +924,10 @@ footer a i{
         transform: rotate(-180deg);
     }
 
+    html{
+        width: 750px;
+    }
+    
     .navlist{
         display: flex;
         position: absolute;
@@ -997,8 +1001,9 @@ footer a i{
 @media(max-width: 420px){
     html{
         font-size: 80%;
+        width: 450px;
     }
-
+    
     footer p{
         font-size: .6rem;
     }
