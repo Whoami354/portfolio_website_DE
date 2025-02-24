@@ -838,7 +838,14 @@ footer a i{
 }
 
 /* Break Points */
+@media(max-width: 1741px){
+    html{
+        width: 1900px;
+    }
+}
+
 @media(min-width: 992px){
+
     .degree-gallery {
         /* das gap entfernen, wenn du mehr als 2 Zeugnisse hast*/
         gap: 5rem;
