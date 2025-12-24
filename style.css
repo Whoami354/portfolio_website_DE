@@ -595,11 +595,6 @@ section{
 }
 
 /* degree section ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
-/* wieder rausnehmen, wenn ich mindestens 3 Abschlüsse habe*/
-#degree {
-    padding-right: 20%; 
-    padding-left: 20%;
-}
 
 .degree{
     width: 100%;
